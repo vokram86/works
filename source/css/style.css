@@ -1160,12 +1160,17 @@ textarea.form__input {
   justify-content: space-between;
   margin: 0px -50px;
 }
+@media(max-width: 1200px){
+  .menu__body {
+    margin: 0px -10px;
+  }
+ }
 @media (max-width: 992px) {
   .menu__body {
     margin: 0px auto;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   .menu__body {
     flex-wrap: wrap;
     justify-content: center;
@@ -1176,10 +1181,15 @@ textarea.form__input {
 .menu__list {
   padding: 0px 50px;
 }
+@media(max-width: 1200px){
+  .menu__list{
+         padding: 0px 10px;
+  }
+      }
 .menu__list li {
   margin-bottom: 5px;
 }
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   .menu__list li {
     margin-bottom: 15px;
   }
@@ -1189,12 +1199,12 @@ textarea.form__input {
     padding: 0px 0px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   .menu__list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 0 1 50%;
+    flex: 0 1 100%;
     margin-bottom: 30px;
   }
 }
